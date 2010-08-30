@@ -1,0 +1,31 @@
+<rdf:RDF 
+	xml:lang="en"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:lang="http://purl.org/net/inkel/rdf/schemas/lang/1.1#"
+	xmlns:rel="http://purl.org/vocab/relationship/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xml:base="http://github.com/lindenb/lindenb.github.com/raw/master/foaf.rdf"
+	> 
+ 
+<foaf:Person rdf:ID="HeatherPiwowar"> 
+	<foaf:name>Heather Piwowar</foaf:name> 
+	<foaf:title>Dr</foaf:title> 
+	<foaf:givenname>Heather</foaf:givenname> 
+	<foaf:family_name>Piwowar</foaf:family_name> 
+	<foaf:mbox>hpiwowar@gmail.com</foaf:mbox> 
+	<foaf:homepage rdf:resource="http://www.researchremix.org/"/> 
+	<foaf:img rdf:resource="#"/> 
+	<lang:masters>en</lang:masters> 
+	<foaf:based_near> 
+		<geo:Point geo:lat="49.2765" geo:long="-123.2177" /> 
+	</foaf:based_near> 
+</foaf:Person> 
+ 
+<foaf:Image rdf:about="http://www.gravatar.com/avatar/ccf6fc7425a6f5e941fc043a2d069b86"> 
+	<dc:title>My avatar</dc:title> 
+</foaf:Image> 
+ 
+</rdf:RDF> 
